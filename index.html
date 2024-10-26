@@ -3,7 +3,28 @@
   <head>
     <title>Tab to Window</title>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+      @font-face {
+        font-family: 'Inter';
+        font-weight: 300;
+        src: url('fonts/Inter-Light.woff2') format('woff2'),
+             url('fonts/Inter-Light.woff') format('woff');
+      }
+      @font-face {
+        font-family: 'Inter';
+        font-weight: 400;
+        src: url('fonts/Inter-Regular.woff2') format('woff2'),
+             url('fonts/Inter-Regular.woff') format('woff');
+      }
+      @font-face {
+        font-family: 'Inter';
+        font-weight: 700;
+        src: url('fonts/Inter-Bold.woff2') format('woff2'),
+             url('fonts/Inter-Bold.woff') format('woff');
+      }
+
+      body {
+        font-family: 'Inter', sans-serif;
+      }
 
       html {
         height: 100%;
